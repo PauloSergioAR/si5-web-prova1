@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="outer_container">
+    <div id="inner_container">
+      <h1>Bem-vindo!</h1>
+      <label for="matricula">Matrícula:</label>
+      <input class="field" id="matricula"/>
+      <span class="mandatory" id="mat_err">Campo obrigatório!</span>
+      <label for="senha">Senha:</label>
+      <input class="field" type="password" id="senha"/>
+      <span class="mandatory" id="senha_err">Campo obrigatório!</span>
+      <span class="mandatory" id="gen_err">Matrícula/Senha incorretos</span>
+      <button id="login">Login</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
